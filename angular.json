@@ -29,7 +29,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -46,6 +51,7 @@
                 }
               ],
               "outputHashing": "all"
+			  "baseHref": "/resume-devops/"
             },
             "development": {
               "optimization": false,
@@ -89,8 +95,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fa50296c-6e6c-4d08-83c1-022734d96550"
   }
 }
