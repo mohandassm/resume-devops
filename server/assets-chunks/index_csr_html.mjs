@@ -6,9 +6,9 @@ export default `<!doctype html>
   <base href="/resume-devops/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+<style>body{font-family:Arial,sans-serif;line-height:1.6;padding:20px}</style><link rel="stylesheet" href="styles-FFJTKSSR.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-FFJTKSSR.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-UVP6UFKX.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-K3ZQX3KN.js" type="module"></script></body>
 </html>
 `;

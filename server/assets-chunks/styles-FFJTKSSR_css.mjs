@@ -1,0 +1,2 @@
+export default `body{font-family:Arial,sans-serif;line-height:1.6;padding:20px}h1{font-size:2em;margin-bottom:10px}h2{margin-top:30px;color:#369}ul{margin-left:20px}p{margin-bottom:10px}
+`;
